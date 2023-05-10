@@ -1,0 +1,8 @@
+
+x fix total amount
+x add dollar sign on amount
+x update design, make responsive
+x move text position in input fields
+x Make + btn only work if input fields are not empty
+x add remove btn
+x Btn send invoice resets everything

@@ -1,0 +1,189 @@
+body {
+    font-family: 'Montserrat';
+    padding: 0;
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+    border: solid 1px rgb(209, 209, 209);
+    border-radius: 12px;
+    width: 75%;
+    max-width: 900px;
+    margin: 50px auto;
+}
+
+#hero-headline {
+    font-size: 3.125rem;
+    font-weight: 600;
+}
+
+#form-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+form {
+    margin-top: 5em;
+    display: flex;
+    justify-content: center;
+    gap: 0.31em;
+    align-items: center;
+    width: 43%;
+}
+
+#bill-description {
+    width: 100%;
+    height: 2.5em;
+    border-radius: 10px;
+    font-size: 1rem;
+    border: 1.5px solid lightgray;
+    font-family: montserrat;
+    padding-left: 0.5em;
+}
+
+#bill-amount {
+    font-size: 0.875rem;
+    width: 6.4em;
+    height: 2.85em;
+    border-radius: 10px;
+    border: 1.5px solid lightgray;
+    font-family: montserrat;
+    padding-left: 0.5em;
+}
+
+#create-invoice {
+    margin-left: 0.31em;
+    margin-top: 4em;
+    width: 3em;
+    height: 2em;
+    border-radius: 10px;
+    border: none;
+    background-color: #4579FF;
+    color: white;
+    font-size: 1.25em;
+    font-weight: 100;
+}
+
+#create-invoice:hover{
+    background-color: #336af5;
+    width: 3.1e,;
+    height: 2.1em;
+    cursor: pointer;
+}
+
+#bill-description:hover{
+    background-color: rgb(238, 238, 238);
+    cursor: pointer;
+}
+
+#bill-amount:hover{
+    background-color: rgb(238, 238, 238);
+    cursor: pointer;
+}
+
+.bill-holder{
+    padding: 0;
+    max-width: 1200px;
+    width: 100%;
+    margin: 3.125em auto ;
+}
+
+#feed-header{
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    color: rgb(43, 43, 43);
+    font-weight: 500;
+    padding: 0;
+}
+
+#feed-container{
+    padding: 0;
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    color: grey;
+    font-weight: 300;
+    font-size: 1.125em;
+}
+
+#border{
+    box-shadow: 0 0 0 0.2px rgb(114, 114, 114);
+    width: 50%;
+    margin: 1.56em auto;
+}
+
+#send-invoice{
+    margin: 0;
+    width: 50%;
+    border: none;
+    background-color: #4579FF;
+    color: white;
+    height: 2.8em;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 1rem;
+    font-weight: 500;
+    font-family: montserrat;
+}
+
+#total-container{
+ display: flex;
+ justify-content: space-evenly;
+ margin: 3.15em 6.25em;
+}
+
+#total-section-one{
+    width: 27%;
+}
+
+#notes {
+    text-align: left;
+    font-size: 0.88rem;
+    color: rgb(61, 61, 61);
+    margin: 0;
+}
+
+#notes-p{
+    padding: 0;
+    margin: 0;
+    text-align: left;
+    font-size: 0.65rem;
+    color: grey;
+    margin-top: 0.93em;
+}
+
+#p-amount{
+    color: rgb(43, 43, 43);
+    font-weight: 500;
+    margin: 0;
+}
+
+#total-usd{
+    margin: 0.16em;
+    padding: 0;
+    text-align: right;
+    font-weight: 600;
+    font-size: 1.87rem;
+}
+
+#remove-container{
+    display: flex;
+}
+
+#remove-btn{
+    margin-left: 0.5em;
+    background-color: white;
+    border: none;
+    color: grey;
+}
+
+#remove-btn:hover{
+    font-size: 1rem;
+    color: black;
+    cursor: pointer;
+}
